@@ -88,6 +88,7 @@ class App extends Component {
                 </li>)
             })}
           </ul>
+          {this.state.todos.length === 0 ? <h3>No items ... </h3> : <ul>{this.todos}</ul>}
         </div>
     );
   }
