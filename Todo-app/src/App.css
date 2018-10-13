@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+   
+}
+
+ul {
+  list-style: none;
+}
+
+.done {
+  text-decoration: line-through
+}
