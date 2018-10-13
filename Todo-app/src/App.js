@@ -44,7 +44,6 @@ class App extends Component {
       newTodo: '',
       todos:[...this.state.todos, {
         description: this.state.newTodo,
-        deadline: this.state.newTodo,
         done: false
       }] 
     });
